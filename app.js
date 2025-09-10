@@ -83,3 +83,10 @@ elBtns.forEach((btn, index) => {
     }
   };
 });
+
+const elBurgerBtn = document.querySelector(".burger-btn");
+const elHeaderList = document.querySelector(".header__burger__div");
+
+elBurgerBtn.onclick = () => {
+  elHeaderList.classList.toggle("flex");
+};
